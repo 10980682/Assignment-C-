@@ -2,23 +2,19 @@
 
 using namespace std;
 
+//finding the average of even numbers
+
 int main()
 { int a = 10000;
 
     int sum = 0, num = 0;
 
-
     for (int i = 1; i < a; i++)
         {
             if (i%2 == 0)
-                {
-                    sum = sum + i;
+                {sum = sum + i;
                     num++;
                 }
-        }
-
         cout<<sum/num<<endl;
-
-
     return 0;
 }
